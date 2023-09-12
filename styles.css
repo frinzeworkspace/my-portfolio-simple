@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.header-name, section{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+#profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.class-year{
+    font-style: italic;
+    font-size: 15px;
+}
+
+.objective{
+    text-indent: 50px;
+}
+
+
+
