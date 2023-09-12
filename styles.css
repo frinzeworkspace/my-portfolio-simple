@@ -3,7 +3,8 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: rgb(79, 170, 162);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header-name, section{
@@ -22,9 +23,13 @@ body{
 }
 
 #profile{
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     border-radius: 50px;
+}
+
+#name{
+    font-size: 35px;
 }
 
 .class-year{
@@ -35,6 +40,3 @@ body{
 .objective{
     text-indent: 50px;
 }
-
-
-
