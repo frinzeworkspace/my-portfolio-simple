@@ -22,7 +22,7 @@ body{
 /*.............................HEADER...........................*/
 
 /*////////Main-Header///////*/
-.main-header{
+.header{
     display: flex;
     flex-direction: row;
     gap:20px;
@@ -34,13 +34,13 @@ body{
     border-radius: 50px;
 }
 
-#name-email{
+#header-info{
     padding:0;
     display: flex;
     flex-direction: column;
 }
 
-#name-email h1{
+#header-info h1{
     margin-bottom: 0px;
 }
 
@@ -68,7 +68,7 @@ body{
     margin-right: 0px;
 }
 
-#name-email p{
+#header-info p{
     margin-top: 0;
 }
 
@@ -116,33 +116,22 @@ body{
     width: 31px;
 }
 
+
+/*............................MEDIA QUERY FOR MOBILE.........................*/
 @media only screen and (max-width: 600px) {
-    #name{
-        font-size: 20px;
-        margin-top: 0px;
-        margin-bottom: 8px;
-    }
 
-    .objective{
-        font-size: 12px;
-    }
-    
-    .main-information{
-        font-size: 77% ;
-     }
-
-     .class-year{
-        font-style: italic;
-        font-size: 77%;
-    }
-    .main-header{
+    .header{
         display: flex;
         flex-direction: column;
         gap:20px;
         align-items: center;
     }
 
-
+    #name{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
 
     .add-info{
         display: flex;
@@ -152,6 +141,15 @@ body{
         font-size: 69%;
     }
 
+    #phone-logo, #email-logo{
+        display: none;
+    }
+
+    #header-info p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     #number{
         padding-top: 1px;
         padding-left:0px;
@@ -159,13 +157,25 @@ body{
         font-size: 69%;
     }
 
-    #phone-logo, #email-logo{
-        display: none;
+    .objective{
+        font-size: 12px;
     }
 
-    #name-email p{
-        margin-top: 0;
-        margin-bottom: 0;
+
+
+
+
+
+
+
+    .main-information{
+        font-size: 77% ;
+     }
+
+
+    .class-year{
+        font-style: italic;
+        font-size: 77%;
     }
 
     .footer{
