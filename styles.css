@@ -6,7 +6,6 @@ body{
     color: rgb(88, 85, 104);
     background-color: rgb(236, 234, 245);
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 .header-name, section{
@@ -76,10 +75,10 @@ body{
     padding-top: 1px;
     padding-left:0px;
     margin-left:1px;
-    font-size:15px;
+    font-size:91%;
 }
 
-.objective{
+.objective {
     text-indent: 50px;
 }
 
@@ -100,6 +99,7 @@ body{
 
 
 
+/*...............................FOOTER.............................*/
 /*//////////Footer/////////*/
 .footer{
     padding-top: 43px;
@@ -154,11 +154,15 @@ body{
         padding-top: 1px;
         padding-left:0px;
         margin-left:1px;
-        font-size: 69%;
+        font-size: 92%;
     }
 
     .objective{
         font-size: 12px;
+    }
+
+    #second-obj{
+        margin:50px;
     }
 
 
