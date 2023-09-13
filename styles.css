@@ -146,14 +146,14 @@ body{
         flex-direction: column;
         gap:3px;
         margin-left: 1px;
-        font-size: 12px;
+        font-size: 69%;
     }
 
     #number{
         padding-top: 1px;
         padding-left:0px;
         margin-left:1px;
-        font-size:12px;
+        font-size: 69%;
     }
 
     #phone-logo, #email-logo{
