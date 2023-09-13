@@ -8,8 +8,19 @@ body{
 
 }
 
+.header-name, section{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
 
- /*......HEADER.......*/
+
+/*.............................HEADER...........................*/
+
+/*////////Main-Header///////*/
 .main-header{
     display: flex;
     flex-direction: row;
@@ -22,10 +33,6 @@ body{
     border-radius: 50px;
 }
 
-#name{
-    font-size: 35px;
-}select
-s
 #name-email{
     padding:0;
     display: flex;
@@ -35,6 +42,12 @@ s
 #name-email h1{
     margin-bottom: 0px;
 }
+
+#name{
+    font-size: 35px;
+}
+
+/*/////////Add-Info/////////*/
 .add-info{
     display: flex;
     flex-direction: row;
@@ -49,8 +62,8 @@ s
 }
 
 #phone-logo{
-margin-left: 15px;
-margin-right: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
 }
 
 #name-email p{
@@ -68,22 +81,15 @@ margin-right: 0px;
     text-indent: 50px;
 }
 
-.header-name, section{
-    height: auto;
-    width: 100%;
-    background-color: white;
-    padding: 30px;
-    margin: 20px;
-    border-radius: 10px;
-}
 
- /*......MAINSECTION.......*/
 
+
+/*............................MAINSECTION.........................*/
+
+/*//////////Main-Info/////////*/
  .main-information{
     padding-top: 10px;
  }
-
-
 
 .class-year{
     font-style: italic;
